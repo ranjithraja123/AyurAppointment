@@ -1,0 +1,261 @@
+.hero {
+    /* width: 100vw; */
+    /* background-color: #F5EFE6; */
+}
+
+.footer{
+    /* width: 100vw; */
+    /* background-color: black; */
+    color: white;
+}
+
+.quick{
+    list-style: none;
+text-decoration: none;
+}
+
+.qlink{
+    /* color: #1A4D2E; */
+    color: white;
+}
+
+.btnlink{
+    background-color: #1A4D2E;
+    color: #E8DFCA;
+
+}
+a{
+    text-decoration: none;
+}
+.header{
+    /* width: 100vw; */
+}
+.cards{
+    background-color: rgba(35, 54, 16, 0.5);
+    
+} 
+
+.cardColor{
+  background-color: black;
+}
+.homeImages {
+    width: 50%;
+    height: 50%;
+}
+
+.virtual{
+    width: 40%;
+    height: 40%;
+}
+
+.online {
+  /* background: linear-gradient(rgb(116,244,213,0.9), rgb(116, 243, 239, 0.4)); */
+}
+
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes fall {
+    0% {
+        transform: translateY(-10%) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(120%) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+.falling-leaf {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url('path/to/leaf.png'); /* Replace with your leaf image */
+    background-size: cover;
+    animation: fall 5s linear infinite;
+    pointer-events: none;
+}
+
+
+.aboutus{
+background-color: rgba(35, 54, 16, 0.751);
+border-radius: 20px;
+mix-blend-mode:multiply;
+
+}
+
+
+.cardText{
+  background-color: rgba(35, 54, 16, 0.751);
+  border-radius: 20px;
+  /* mix-blend-mode:multiply; */
+  }
+
+.service{
+  color: #eee;
+
+}
+.serviceCard{
+  background-color: rgba(35, 54, 16, 0.8);
+
+}
+
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100vh;
+  }
+  
+  body {
+    background: #eee;
+    font-size: 14px;
+    font-family: 'Miguel ExtLt';
+    background-image:  url('../assets/images/BGn1.png');
+    position: relative;
+   background-repeat: no-repeat;
+  background-size: cover;
+
+    color: #000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* .swiper-pagination-bullet{
+    : '50px';
+  }
+   */
+
+
+
+  .slide-container {
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    animation: float 2s ease-in-out infinite; /* Infinite floating animation */
+    background: transparent;
+  }
+
+  .mySwiper {
+    background: none;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+footer {
+  background-color: #333; /* Adjust as needed */
+  color: white; /* Adjust as needed */
+  padding: 20px 100px;
+}
+
+footer a {
+  color: inherit; /* To ensure the links are white */
+  text-decoration: none;
+}
+
+footer .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer .row .col-6 {
+  flex: 1 1 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+footer .row .col-6 h6,
+footer .row .col-6 p {
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  footer .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .row .col-6 {
+    flex: 1 1 100%;
+  }
+}
+
+  
+
+
+
+
+
+
+  
