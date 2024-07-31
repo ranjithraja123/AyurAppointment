@@ -9,7 +9,7 @@
     "start": "node backend/index.js",
     "start-dev": "nodemon backend/index.js",
     "server": "nodemon backend/index.js",
-    "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend"
+    "build": "npm install --force && npm install --prefix frontend --force && npm run build --prefix frontend"
   },
   "author": "Ranjith Raja",
   "license": "ISC",
